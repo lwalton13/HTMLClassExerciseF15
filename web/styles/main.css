@@ -1,0 +1,55 @@
+
+body {
+    font-family: "Comic Sans MS",sans-serif;
+}
+
+h1 {
+    font-size: 26px;
+}
+
+img {
+    float:left;
+    
+}
+
+#title1 {
+    color: orange;
+    font-style: italic;
+    font-size: 36px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px black;
+    text-indent: 50px;
+    
+}
+
+
+h3 {
+    font-weight: bold;
+    text-indent: 50px;
+}
+
+#welcome {
+    color: black;
+    font-weight:bold;
+}
+#welcome::first-letter {
+    font-size: 50px;
+    font-weight:bold;
+}
+
+.bullets{
+    line-height:26px;
+}
+.bullets>li>a {
+    color:orange;
+    font-weight:bold;
+}
+
+.bullets>li>a:hover {
+    color:green;
+}
+
+footer {
+    font-size: 14px;
+    text-align:center;
+} 
