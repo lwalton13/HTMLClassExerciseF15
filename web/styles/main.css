@@ -1,27 +1,44 @@
 
+
+html {
+    background: url("../images/bats.gif");
+    background-repeat: repeat;
+}
+
+header {
+    border-bottom: 2px solid #000000;
+    background-color: orange;
+    background: linear-gradient(45deg,white,orange,black);
+}
 body {
     font-family: "Comic Sans MS",sans-serif;
+    width: 800px;
+    margin:auto;
+    background-color: white;
+    -moz-box-shadow: 0 0 5px 5px #000000;
+    -webkit-box-shadow: 0 0 5px 5px#000000;
+    box-shadow: 0 0 5px 5px #000000;
 }
+
 
 h1 {
     font-size: 26px;
+    padding-left: 10px;
+    font-weight: bold;
 }
 
 img {
     float:left;
-    
+    padding-left: 20px;
 }
 
+
 #title1 {
-    color: orange;
-    font-style: italic;
     font-size: 36px;
     text-transform: uppercase;
-    text-shadow: 2px 2px black;
     text-indent: 50px;
     
 }
-
 
 h3 {
     font-weight: bold;
@@ -37,6 +54,18 @@ h3 {
     font-weight:bold;
 }
 
+p {
+    padding-left:10px;
+    padding-right:10px;
+}
+
+#sidebar {
+    float:left;
+    width:160px;
+    height:655px;
+    
+}
+
 .bullets{
     line-height:26px;
 }
@@ -49,7 +78,31 @@ h3 {
     color:green;
 }
 
+
+#product {
+    padding-bottom:130px
+        
+}
+
+#product_link {
+    text-align: left;
+}
+
+#product_link>a {
+    color:orange;
+    font-weight:bold;
+}
+#product_link>a:hover {
+    color:green;
+}
+
 footer {
+    height: 50px;
     font-size: 14px;
     text-align:center;
-} 
+    border-top: 2px solid #000000;
+    background-color:orange;
+    background: linear-gradient(45deg,black,orange,white);
+    margin-left:0px;
+   
+}   
