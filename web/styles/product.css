@@ -1,3 +1,12 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 16, 2015, 11:53:11 AM
+    Author     : ewalton
+*/
 html {
     background: url("../images/bats.gif");
     background-repeat: repeat;
@@ -10,35 +19,30 @@ header {
 }
 
 .nav ul {
-  list-style: none;
-  background-color: black;
-  text-align: center;
-  padding: 0px 0px;
-  margin: 0;
+    list-style: none;
+    background-color: black;
+    text-align: center;
+    padding: 0px 0px;
+    margin: 0;
 } 
 .nav li {
-  font-size: 1.2em;
-  line-height: 40px;
-  height: 40px;
-  display:inline-block;
-  padding: 0px 20px;
-}
- 
-.nav a {
-  text-decoration: none;
-  color: #fff; 
-  display: block;
-} 
- 
-.nav a:hover {
-  background-color: gray;
-  color:black;
+    font-size: 1.2em;
+    line-height: 40px;
+    height: 40px;
+    display:inline-block;
+    padding: 0px 20px;
 }
 
-#home >a, #home.active>a {
-    color:orange;
+.nav a {
+    text-decoration: none;
+    color: #fff; 
+    display: block;
+} 
+
+.nav a:hover {
+    background-color: gray;
+    color:black;
 }
- 
 
 body {
     font-family: "Comic Sans MS",sans-serif;
@@ -68,7 +72,6 @@ img {
     font-size: 36px;
     text-transform: uppercase;
     text-indent: 50px;
-    
 } 
 
 h3 {
@@ -76,10 +79,19 @@ h3 {
     text-indent: 50px;
 }
 
+h4 {
+    text-align: left;
+    padding-left: 30px;
+    padding-right: 10px;
+    padding-top: 10px;
+    margin: 0px 0px;
+}
+
 #welcome {
     color: black;
     font-weight:bold;
 }
+
 #welcome::first-letter {
     font-size: 50px;
     font-weight:bold;
@@ -93,20 +105,48 @@ p {
 ul {
     list-style-type: none;
     padding-left: 20px;
+}
+
+#sidebarLeft {
+    float:left;
+    width:160px;
+    padding-right:20px;
+    height: 415px;
+}
+
+#sidebarRight {
+    float: right;
+    width: 180px;
+    background-color:#F5DEB3
+}
+
+img.suggestedItems{
+    display: block;
+    height: 60px;
+    width: 60px;    
+}
+
+#sidebarRight>ul.otherItems>li>figure>figcaption>a {
+    font-size: 14px;
+    color:black;
+    text-align: left;
 
 }
 
-#sidebar {
-    float:left;
-    width:160px;
-    height:655px;
-    padding-right:20px;
-    
+#sidebarRight>ul.otherItems>li>figure>figcaption>a:hover {
+    color:green;
+
+}
+
+ul.otherItems {
+    margin: 0px 0px;
+    padding: 0px 0px;
 }
 
 .bullets{
     line-height:26px;
-   
+    height: 900px;
+
 }
 
 .bullets>li {
@@ -119,7 +159,7 @@ ul {
     height: 20px;
     text-align: left;
     display:block;
-    
+
 }
 
 .bullets>li>a {
@@ -128,11 +168,10 @@ ul {
     display: block;
 }
 
-#product {
-    padding-bottom:130px
-        
-}
 
+#product {
+    height: 395px;
+}
 #product_link {
     text-align: left;
 }
@@ -144,6 +183,16 @@ ul {
 #product_link>a:hover {
     color:green;
 }
+
+#product>#catPicture>img {
+    float:left;
+    padding: 0px 0px;
+}
+
+#product>#productDescription {
+    margin-left: 330px; 
+}
+
 
 footer {
     height: 50px;

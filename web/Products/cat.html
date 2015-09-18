@@ -1,23 +1,22 @@
-<!--Copyright Lisa Walton 2015 -->
+
 
 <!DOCTYPE html>
-
+<!--Copyright Lisa Walton 2015 -->
 <html lang="en">
     <head>
         <meta charset="utf-8" />
-        <link rel="stylesheet" href="styles/normalize.css">
-        <link rel="stylesheet" href="styles/main.css">
-        
-        <title>HTMLClassExerciseF15_1/index.html</title>
+        <link rel="stylesheet" href="../styles/product.css">
+
+        <title>HTMLClassExerciseF15_1/cat.html</title>
     </head>
 
     <body>
         <header>
-            <img src="images/pumpkin.gif" alt="A pumpkin">
+            <a href="../index.html"> <img src="../images/pumpkin.gif" alt="A pumpkin"></a>
             <h1 id="title1"> The Halloween Store</h1>
             <h3> For the little Goblin in all of us!</h3>
-        </header>
-        
+        </header> 
+
         <div class ="nav">
             <ul>
                 <li id="home"><a href="index.html" >Home</a></li>
@@ -26,40 +25,57 @@
                 <li id="decorating_ideas"><a href="#">Decorating Ideas</a></li>
                 <li id="join_email"><a href="#">Join Email</a></li>
             </ul>
-        
+
         </div> 
-        
-        
-       <div id="sidebar"> 
+
+
+        <div id="sidebarLeft"> 
             <ul class="bullets">
                 <li> <a href="Products/Props.html">Props</a></li>
                 <li> <a href="Prodcuts/Costumes.html">Costumes</a></li>
                 <li> <a href="Products/SpecicalEffects.html">Special FX</a></li>
                 <li> <a href ="Products/Masks.html">Masks</a></li>
-            </ul>
-       </div>
-        
-        <section>
-            <h1 id="welcome"> Welcome to my site.<br /> Please come in and stay awhile.</h1>
+            </ul> 
+        </div>
 
-            <p> I started this website because Halloween has always been my favorite holiday. But during the last year, I started selling some of my favorite Halloween products, and they've become quite a hit.
-            </p>
-            <p> If you click on the Personal link, you can browse my favorite Halloween pictures, stories, and films. And if you join my email list, I will keep you up-to-date on all things Halloween.</p>
-        </section>
-        
+        <div id="sidebarRight">
+            <h4>Customers who bought this also bought:</h4>
+            <ul class="otherItems">
+                <li > <figure> <img class="suggestedItems" src="../images/flying_bats.jpg" alt="bat">
+                        <figcaption> <a href="../images/flying_bats.jpg">Flying Bat</a> </figcaption>
+                    </figure></li>
+
+                <li > <figure> <img class="suggestedItems" src="../images/rat1.jpg" alt="rat"><figcaption><a href="../images/rat1.jpg">
+                                16" Ugly Rat </a></figcaption></figure> </li>
+
+
+                <li><figure><img class="suggestedItems" src="../images/strobe1.jpg" alt="strobe">
+                        <figcaption>
+                            <a href="../images/strobe1.jpg">
+                                Mini strobe light</a> 
+                        </figcaption>
+                    </figure>
+                </li>
+            </ul>
+
+
+        </div> 
+
         <div id="product">
-            <h1> Product of the week</h1>
-            <span> <img src="images/cat1.jpg" alt="Cat"></span>
-        </div>
-        <div id="product_link">
-        <a href="Product/cat.html">20" Deranged Cat</a>
-        </div>
-        <section>
-            <h1> My guarantee </h1>
-            <p>If you aren't completely satisfied with everything you buy from my site, you can return it for a full refund. <b>No questions asked!</b></p>
-           
-        </section>
+            <div id="product_link">
+                <h2> 20" Deranged Cat</h2>
+                <a href="Product/cat.html"></a>
+            </div>
+            <span id="catPicture"> <img src="../images/cat1.jpg" alt="Cat"></span>
+            <div id="productDescription">
+                <p> This cat provides its own light and is perfect for a backyard haunting.
+
+                    <br />
+                    <b>Price</b> 19.99 </p>
+            </div>
+        </div> 
+
 
         <footer>&copy; 2016 Ben Murach</footer>
     </body>
-</html>    
+</html>      
