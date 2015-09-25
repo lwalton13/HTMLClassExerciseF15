@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!--Copyright Lisa Walton 2015 -->
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="styles/email.css">
+
+        <title>Join Email</title>
+    </head>
+
+    <body>
+        <header>
+            <a href="../index.html"> <img src="images/pumpkin.gif" alt="A pumpkin"></a>
+            <h1 id="title1"> The Halloween Store</h1>
+            <h3> For the little Goblin in all of us!</h3>
+        </header> 
+
+        <div class ="nav">
+            <ul>
+                <li id="home"><a href="index.html" >Home</a></li>
+                <li id="product_list"><a href="../Product/cat.html">Product List</a></li>
+                <li id="personal"><a href="#">Personal</a></li>
+                <li id="decorating_ideas"><a href="#">Decorating Ideas</a></li>
+                <li id="join_email"><a href="#">Join Email</a></li>
+            </ul>
+
+        </div> 
+
+
+        <div id="sidebarLeft"> 
+            <ul class="bullets">
+                <li> <a href="Products/Props.html">Props</a></li>
+                <li> <a href="Prodcuts/Costumes.html">Costumes</a></li>
+                <li> <a href="Products/SpecicalEffects.html">Special FX</a></li>
+                <li> <a href ="Products/Masks.html">Masks</a></li>
+            </ul> 
+        </div>
+        <div id="product">
+            <h2> Please enter the following information. </h2>
+        <div id="informationForm">
+            <form method="get" action="subscribe.html">
+            
+             <p><label for="firstName" class="labels">First Name: </label> <input name="firstName" type="text" class= "formField" id="firstName" autofocus required title="Please enter your first name."/></p>
+            
+            <p><label for="lastName" class="labels">Last Name: </label> <input name="lastName" type="text" class= "formField" id="lastName" tabIndex="100" required title="Please enter your last name."/></p>
+            
+            <p><label for="email" class="labels">Email: </label> <input name="email" type="email" class= "formField"  id="email" tabIndex="100" required title="Please enter a valid email address."/></p>
+           
+            <p><label for="zipCode" class="labels">Zip Code:</label> <input name="zipCode" type="text" class= "formField" id="zipCode" placeholder="Optional but appreciated: 99999" pattern="^[0-9]{5}$"  required title="Please enter a valid 5 digit Zip Code." /></p>
+            
+            <button type="submit" value="Submit" id="subscribeButton">Subscribe</button>
+               
+            
+            </form> 
+        </div>
+           
+        </div>
+
+
+
+
+
+
+
+
+
+        <footer>&copy; 2016 Ben Murach</footer>
+    </body>
+</html>       
