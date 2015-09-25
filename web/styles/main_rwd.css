@@ -4,7 +4,7 @@ html {
 } 
 
 header {
-    border-bottom: 2px solid #000000;
+    border-bottom: .125em solid #000000;
     background-color: orange;
     background: linear-gradient(45deg,white,orange,black);
 }
@@ -13,15 +13,15 @@ header {
   list-style: none;
   background-color: black;
   text-align: center;
-  padding: 0px 0px;
-  margin: 0;
+  padding: 0em 0em;
+  margin: 0em;
 } 
 .nav li {
   font-size: 1.2em;
-  line-height: 40px;
-  height: 40px;
+  line-height: 2.5em;
+  height: 4.17%;
   display:inline-block;
-  padding: 0px 20px;
+  padding: 0em 1.25em;
 }
  
 .nav a {
@@ -43,38 +43,53 @@ header {
 body {
     font-family: "Comic Sans MS",sans-serif;
     max-width: 960px;
+    margin: auto;
     width: 95%;
-    margin:auto;
+    font-size: 100%; /*16 pixels*/
     background-color: white;
-    -moz-box-shadow: 0 0 5px 5px #000000;
-    -webkit-box-shadow: 0 0 5px 5px#000000;
-    box-shadow: 0 0 5px 5px #000000;
+    -moz-box-shadow: 0em 0em 0.3125em 0.3125em #000000;
+    -webkit-box-shadow: 0 0 0.3125em 0.3125em #000000;
+    box-shadow: 0 0 0.3125em 0.3125em #000000;
 }
 
 
 h1 { 
-    font-size: 26px;
-    padding-left: 10px;
+    font-size: 1.625em;
+    padding-left: 0.625em;
     font-weight: bold;
 }
 
 img {
+    max-width:100%;
     float:left;
-    padding-left: 20px;
+    padding-left: 1.25em;
+}
+
+body>header>#pumpkin {
+    min-width: 40px;
+    width: 8.85%;
+}
+
+#catPicture {
+    min-width:40px;
+    width: 18.125%;
+  
+    
 }
 
 
 
+
 #title1 {
-    font-size: 36px;
+    font-size: 2.25em;
     text-transform: uppercase;
-    text-indent: 50px;
+    text-indent: 3.125em;
     
 } 
 
 h3 {
     font-weight: bold;
-    text-indent: 50px;
+    text-indent: 3.125em;
 }
 
 #welcome {
@@ -82,42 +97,41 @@ h3 {
     font-weight:bold;
 }
 #welcome::first-letter {
-    font-size: 50px;
+    font-size: 3.125em;
     font-weight:bold;
 }
 
 p {
-    padding-left:10px;
-    padding-right:10px;
+    padding-left:0.625em;
+    padding-right:0.625em;
 }
 
 ul {
     list-style-type: none;
-    padding-left: 20px;
+    padding-left: 1.25em;
 
 }
 
 #sidebar {
     float:left;
-    width:160px;
-    height:655px;
-    padding-right:20px;
+    width: 16.67%;
+    padding-right:1.25em;
     
 }
 
 .bullets{
-    line-height:26px;
+    line-height:1.625px;
    
 }
 
 .bullets>li {
     background-color:orange;
-    border-width: 2px;
+    border-width: 0.125em;
     border-style: solid;
     border-color: black;
-    padding: 10px 10px;
-    margin: 5px 0px 0px 0px;
-    height: 20px;
+    padding: 0.625em 0.625em;
+    margin: .3125em 0em 0em 0em;
+    height: 1.25em;
     text-align: left;
     display:block;
     
@@ -129,13 +143,23 @@ ul {
     display: block;
 }
 
+.rightSideContent {
+   padding-left:10.5em;
+   padding-right: 2.0em;
+    
+}
+
 #product {
-    padding-bottom:130px
+    padding-bottom:8.125em;
+    
+   
         
 }
 
 #product_link {
     text-align: left;
+    padding-left:11.0em;
+    padding-right: 2.0em;
 }
 
 #product_link>a {
@@ -147,11 +171,11 @@ ul {
 }
 
 footer {
-    height: 50px;
-    font-size: 14px;
+    height:5.208%;
+    font-size: 0.875em;
     text-align:center;
-    border-top: 2px solid #000000;
+    border-top: .125em solid #000000;
     background-color:orange;
     background: linear-gradient(45deg,black,orange,white);
-    margin-left:0px;
+    margin-left:0em;
 } 
